@@ -1,0 +1,38 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 2017
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Tale of Kingdoms.Plugins", "Tale of Kingdoms.Plugins.csproj", "{9B68E852-E517-9AC8-EE89-746D98083C01}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Tale of Kingdoms", "Tale of Kingdoms.csproj", "{59FD7733-81BB-3ED0-D387-E2E99813A59D}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Tale of Kingdoms.Editor.Plugins", "Tale of Kingdoms.Editor.Plugins.csproj", "{68E162A1-8E8C-117A-A58C-2CB22BB89265}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Tale of Kingdoms.Editor", "Tale of Kingdoms.Editor.csproj", "{AC997F7B-C998-3036-B5CC-DE87149EE226}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{9B68E852-E517-9AC8-EE89-746D98083C01}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{9B68E852-E517-9AC8-EE89-746D98083C01}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{9B68E852-E517-9AC8-EE89-746D98083C01}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{9B68E852-E517-9AC8-EE89-746D98083C01}.Release|Any CPU.Build.0 = Release|Any CPU
+		{59FD7733-81BB-3ED0-D387-E2E99813A59D}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{59FD7733-81BB-3ED0-D387-E2E99813A59D}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{59FD7733-81BB-3ED0-D387-E2E99813A59D}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{59FD7733-81BB-3ED0-D387-E2E99813A59D}.Release|Any CPU.Build.0 = Release|Any CPU
+		{68E162A1-8E8C-117A-A58C-2CB22BB89265}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{68E162A1-8E8C-117A-A58C-2CB22BB89265}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{68E162A1-8E8C-117A-A58C-2CB22BB89265}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{68E162A1-8E8C-117A-A58C-2CB22BB89265}.Release|Any CPU.Build.0 = Release|Any CPU
+		{AC997F7B-C998-3036-B5CC-DE87149EE226}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{AC997F7B-C998-3036-B5CC-DE87149EE226}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{AC997F7B-C998-3036-B5CC-DE87149EE226}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{AC997F7B-C998-3036-B5CC-DE87149EE226}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+EndGlobal
