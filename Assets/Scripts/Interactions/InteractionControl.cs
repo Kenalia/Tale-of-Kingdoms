@@ -12,7 +12,8 @@ public class InteractionControl : MonoBehaviour {
     //Placing Variables
     private bool isPlacingObject = false;
     private GameObject objectBeingPlaced = null;
-    [SerializeField] private float maxPlaceRange = 3.0f; 
+    [SerializeField] private float maxPlaceRange = 3.0f;
+    [SerializeField] private string placeableOnTag;
 
     //Inventory Variables
     public Inventory_Player inventory = null;
@@ -21,6 +22,9 @@ public class InteractionControl : MonoBehaviour {
     [SerializeField] private SphereCollider interactionCollider;
     [SerializeField] float interactionColliderRadius;
     [SerializeField, ReadOnly] private List<Interactable> itemsInRange;
+
+    //Connection/Linking Variables
+    Interactable connected;
 
     private void Start()
     {
@@ -112,7 +116,7 @@ public class InteractionControl : MonoBehaviour {
 
     public void SetObjectToBePlaced(GameObject newObjectToBePlaced)
     {
-        //Make sure this is an Activatable. Can be removed later to work with more types of Placeables
+        //Make sure this is an Activatable.
         if (GetComponent<Activatable>())
         {
             objectBeingPlaced = newObjectToBePlaced;
@@ -138,7 +142,7 @@ public class InteractionControl : MonoBehaviour {
         RaycastHit hitInfo;
         Physics.Raycast(placePoint, out hitInfo, maxPlaceRange);
 
-        if (hitInfo.collider != null)
+        if (hitInfo.collider != null && hitInfo.collider.tag == placeableOnTag)
         {
             
         }

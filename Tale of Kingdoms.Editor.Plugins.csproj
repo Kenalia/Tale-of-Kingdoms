@@ -152,6 +152,8 @@
   </ItemGroup>
   <ItemGroup>
     <None Include="Assets\Editor\Todo\README.txt" />
+    <None Include="Assets\Shaders\DrawSimple.shader" />
+    <None Include="Assets\Shaders\Post Outline.shader" />
     <None Include="Assets\Standard Assets\Characters\FirstPersonCharacter\FirstPersonCharacterGuidelines.txt" />
     <None Include="Assets\Standard Assets\CrossPlatformInput\CrossPlatformInputGuidelines.txt" />
     <None Include="Assets\TextMesh Pro\Fonts\Anton OFL.txt" />
